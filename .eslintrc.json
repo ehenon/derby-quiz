@@ -1,3 +1,25 @@
 {
-  "extends": "next/core-web-vitals"
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "@stylistic/ts"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "max-len": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "no-console": "off",
+    "@stylistic/ts/indent": ["error", 2]
+  }
 }
