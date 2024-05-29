@@ -7,6 +7,7 @@ const Page = () => {
 
   const getRandomQuestion = async () => {
     try {
+      console.log('[Client]: Fetching /api/random-question...');
       const res = await fetch('/api/random-question', {
         method: 'GET',
         headers: {
@@ -21,6 +22,7 @@ const Page = () => {
       }
 
       const { label } = await res.json();
+      console.log(`[Client]: Fetched label '${label}'`);
       setQuestion(label);
     } catch (err) {
       console.log('Une erreur est survenue');
