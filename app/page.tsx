@@ -13,6 +13,7 @@ const Page = () => {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
+        cache: 'no-store',
       });
 
       if (!res.ok) {
