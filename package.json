@@ -12,6 +12,7 @@
   "dependencies": {
     "mongoose": "^8.4.0",
     "next": "14.2.3",
+    "playroomkit": "^0.0.75",
     "react": "^18",
     "react-dom": "^18"
   },
