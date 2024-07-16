@@ -1,9 +1,14 @@
 const avatars = [
-  '/avatars/baseball_male_player.svg',
-  '/avatars/female_jockey.svg',
-  '/avatars/football_female_player.svg',
-  '/avatars/football_male_referee.svg',
-  '/avatars/hockey_male_player.svg',
+  '/avatars/planet00.png',
+  '/avatars/planet01.png',
+  '/avatars/planet02.png',
+  '/avatars/planet03.png',
+  '/avatars/planet04.png',
+  '/avatars/planet05.png',
+  '/avatars/planet06.png',
+  '/avatars/planet07.png',
+  '/avatars/planet08.png',
+  '/avatars/planet09.png',
 ];
 
 export default avatars;

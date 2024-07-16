@@ -14,7 +14,9 @@
     "next": "14.2.3",
     "playroomkit": "^0.0.75",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-loader-spinner": "^6.1.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
