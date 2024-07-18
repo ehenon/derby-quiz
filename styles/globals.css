@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: 'Open Sans', sans-serif;
-}
-
 body {
   color: #1c1c1c;
-  background: linear-gradient(45deg, #A2C0EA, #FFFFFF);
+  background: #1e1e1e;
 }
